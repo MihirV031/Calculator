@@ -1,0 +1,44 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+.main {
+  border: 2px solid wheat;
+  box-shadow: 5px 4px 15px black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #282828;
+}
+.main .button{
+  width: 60px;
+  height: 60px;
+  font-size: 35px;
+  font-weight: 600;
+  border-radius: 50%;
+  /* border: transparent; */
+  margin: 8px;
+  background-image: url(pexels-miguel-á-padriñán-255379.jpg);
+  background-size: contain;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+}
+.screen{
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: 800;
+  height: 65px;
+  width: 330px;
+  text-align: end;
+  justify-content: center;
+  display: inline-block;
+  border-radius: 10px;
+  background-image: url(pexels-miguel-á-padriñán-255379.jpg);
+  background-size: contain;
+  background-position: center;
+  color: transparent;
+  background-clip: text; 
+  border: 2px solid wheat;
+}
